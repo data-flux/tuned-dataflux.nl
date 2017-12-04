@@ -44,7 +44,7 @@ const ProfileSwitcher = new Lang.Class({
             this._items[state] = item;
         }
 
-        let index = 5;
+        let index = 8;
         Main.panel.statusArea.aggregateMenu.menu.addMenuItem(
             this._switcherMenu, index);
 
